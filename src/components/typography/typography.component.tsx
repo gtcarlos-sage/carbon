@@ -204,7 +204,7 @@ const Typography = styled.span.attrs(
     if (!isDeprecationWarningTriggered) {
       isDeprecationWarningTriggered = true;
       Logger.deprecate(
-        "Previous props that could be spread to the `Typography` component are being removed. Only props documented in the intefaces will be supported."
+        "Previous props that could be spread to the `Typography` component are being removed. Only props documented in the interfaces will be supported."
       );
     }
     return css``;

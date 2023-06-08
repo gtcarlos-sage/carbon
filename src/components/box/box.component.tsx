@@ -74,7 +74,7 @@ export const Box = styled.div<BoxProps>`
     if (!isDeprecationWarningTriggered) {
       isDeprecationWarningTriggered = true;
       Logger.deprecate(
-        "Previous props that could be spread to the `Box` component are being removed. Only props documented in the intefaces will be supported."
+        "Previous props that could be spread to the `Box` component are being removed. Only props documented in the interfaces will be supported."
       );
     }
     return css``;
